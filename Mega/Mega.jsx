@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+/*import React, { useState } from "react";
 
 export default (props) => {
     const [numeros, setNumeros] = useState(Array(props).qtdNumero).fill(0))
@@ -31,4 +31,4 @@ export default (props) => {
     );
         
     );
-}; 
+}; */

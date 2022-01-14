@@ -1,6 +1,13 @@
+import "./index.css";
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App";
+import Primeiro from "./components/Primeiro";
+import Comparametro from "./components/ComParamentro"
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(
+    <div>
+    <Primeiro/>
+    <Comparametro/>
+    </div>
+    ,document.getElementById("root")
+);
