@@ -1,3 +1,20 @@
 .Card {
+    border: 3px solid rgb(222, 9, 241);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: aliceblue;
+    margin: 20px;
     
+}
+.Card .Conteudo {
+    background-color: rgb(113, 25, 212);
+    color: rgb(10, 10, 10);
+    padding: 15px 10px;
+
+}
+
+.Card .Footer {
+    background-color: rgb(110, 85, 133);
+    color: rgb(13, 14, 13);
+    padding: 10px 10px;
 }
