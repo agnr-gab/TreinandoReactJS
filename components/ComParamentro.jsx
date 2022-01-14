@@ -1,7 +1,7 @@
 import React from "react";
 
-export default ()=> 
-<>
-<h3>Titulo</h3>
-<p>Subtitulo</p>
-</>
+export default (props)=> 
+    <>
+    <h3>{props.titulo}</h3>
+    <p>{props.subtitulo}</p>
+    </>
